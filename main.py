@@ -22,3 +22,8 @@ if __name__ == '__main__':
     text = "*" * 12
     print_hi('PyCharm')
     print_hi(text)
+
+    print(generator_email())
+    print_hi(generator_email('Georgy'))
+
+    print_hi(generator_email())
